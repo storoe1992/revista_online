@@ -1,0 +1,23 @@
+.tags {
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+        text-align: right;
+    }
+
+    ul li {
+        padding: 2px 4px;
+        background-color: steelblue;
+        margin-right: 1px;
+        color: white;
+        display: inline;
+    }
+    
+}

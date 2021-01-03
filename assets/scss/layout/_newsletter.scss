@@ -1,0 +1,40 @@
+
+
+.newsletter {
+
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    & > p, & > div, & > h2 {
+        margin : 10px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem
+    }
+}
+
+.newsletter__subscribe-button {
+    background-color: coral;
+    color: white;
+}
+
+%newsletter-group-properties {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.newsletter__group {
+   
+    button {
+        @extend %newsletter-group-properties;
+    }
+
+    input {
+        @extend %newsletter-group-properties;
+    }
+}
